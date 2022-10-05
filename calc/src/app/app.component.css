@@ -1,0 +1,38 @@
+
+/* body  */
+.parent{
+    padding:5%;
+    margin: 0% 50% 50% 0%;
+}
+
+.numvalue{
+    margin:0;
+    width: 10%;
+    height: 10%;
+    background:whitesmoke;
+    color:black;
+    padding:5%;
+    font-size:2rem;
+    cursor: pointer;
+}
+
+.inputarea1{
+
+    background: lightslategrey;
+    height: calc(100% / 3);
+    padding: 5%!important;
+    font-size: 3rem;
+}
+
+.inputarea2{
+    background: lightslategrey;
+    padding: 5%;
+    height: 25%;
+    text-align: left;
+    border-top: 1px solid black;
+    font-size: 2rem;
+}
+
+.displayinline {
+    display: inline-block;
+}

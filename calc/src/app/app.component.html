@@ -1,0 +1,32 @@
+
+<!-- <h1>Calcualtor</h1> -->
+<body class="parent">
+<div>
+<div class="inputarea1">
+  {{inputText1}}
+</div>
+
+<div class = "inputarea2">{{inputText2}}</div>
+
+<div class = "numvalue displayinline" (click) = "onSelection('9')">9 </div>
+<div class = "numvalue displayinline" (click) = "onSelection('8')">8 </div>
+<div class = "numvalue displayinline" (click) = "onSelection('7')">7 </div>
+
+<div class = "numvalue displayinline" (click)="getClear()">Clr</div>
+<div class = "numvalue displayinline" (click) = "onSelection('+')">+ </div>
+
+<div class = "numvalue displayinline" (click) = "onSelection('6')">6 </div>
+<div class = "numvalue displayinline" (click) = "onSelection('5')">5 </div>
+<div class = "numvalue displayinline" (click) = "onSelection('4')">4 </div>
+<div class = "numvalue displayinline" (click) = "onSelection('/')">/ </div>
+<div class = "numvalue displayinline" (click) = "onSelection('-')">- </div>
+<div class = "numvalue displayinline" (click) = "onSelection('3')">3 </div>
+
+<div class = "numvalue displayinline" (click) = "onSelection('2')">2 </div>
+<div class = "numvalue displayinline" (click) = "onSelection('1')">1 </div>
+
+<div class = "numvalue displayinline" (click) = "onSelection('0')">0 </div>
+<div class = "numvalue displayinline" (click)="getResult()">=</div>
+
+</div>
+</body>
